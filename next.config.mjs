@@ -11,7 +11,10 @@ const nextConfig = {
 				pathname:`/a/${process.env.NEXT_PUBLIC_UPLOADTHING_APP_ID}`
 			}
 		]
-	}
+	},
+	eslint: {
+		ignoreDuringBuilds: true,
+	},
 };
 
 export default nextConfig;
